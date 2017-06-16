@@ -16,12 +16,18 @@
      background-size: cover;
 }
     table {border-collapse: collapse;}
-    .center
-table, td, th {border: 2px solid black;text-align: left;} 
+table, td, th {border: 2px solid black;text-align:left; color:black;} 
 th, td {padding: 15px;}
-tr:nth-child(even){background-color: #f2f2f2}
-td:nth-child(even){background-color: #f2f2f2}
-
+tr:nth-child(even){background-color: #f2f2f2;
+    color: black;
+}
+td:nth-child(even){background-color: #f2f2f2;
+    color: black;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
 </style>
 <meta charset="UTF-8">
     <title>CPU_AMD</b></title>
@@ -30,14 +36,15 @@ td:nth-child(even){background-color: #f2f2f2}
     <body>
             <h1><b>NEW ERA OF AMD</b></h1>
             <h2>AMD RYZEN IS COMMING</h2>
-            <h3>Introducing new AMD CPUs</h3>
+            
                   
             <video width="860" height="480" controls>
   <source src="IntroducingAMDRyzen™.mp4" type="video/mp4">
   <source src="IntroducingAMDRyzen™.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
             </video>
-
+  <h3>Introducing new AMD CPUs</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1v44wWAOHn8"></iframe>
                <p><b>Description</b></p>
                     <figure>
                         <img src="ryzen7.jpg" alt="ryzen7 cpu"
@@ -57,7 +64,7 @@ The 14nm FinFET provides more performance within a similar power envelope, and t
 </p>
                 <h4>Classification of AMD CPUs</h4>
                 
-<table style="text-align:center;">
+ <table class="center">
    <caption>AMD CPU</caption>
    <tr>
         <th>AMD Ryzen</th>
@@ -114,9 +121,5 @@ The 14nm FinFET provides more performance within a similar power envelope, and t
     
     <p><i>For more detail please visit: <a href="http://www.amd.com">AMD website</a></i></p>
     
-
-       <canvas id="smlRectangle" height="100"
-            width="200"></canvas>
-
     </body>
 </html>
